@@ -1,9 +1,12 @@
+/* navbar upside*/
 .nav-links{
-    display: flex;
+    display: grid;
+    grid-template-columns:3fr 0.2fr 0.2fr 0.2fr;
     list-style: none;
     padding: 10px;
     margin: 10px;
     gap: 20px;  
+    border-bottom: 1px solid black;
 }
 .nav-links a{
     text-decoration: none;
@@ -21,4 +24,22 @@
 }
 .logo span{
     color: #333;
+}
+
+/* Main */
+#home{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+/* navbar left side */
+.left{
+    display:grid;
+    grid-template-rows: 1fr 4fr;
+    margin: 0px;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 80px;
 }
