@@ -1,0 +1,24 @@
+.nav-links{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;  
+}
+.nav-links a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-links a:hover{
+    color: #007BFF;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #007BFF;
+}
+.logo span{
+    color: #333;
+}
