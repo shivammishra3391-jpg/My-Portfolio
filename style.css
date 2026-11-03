@@ -188,6 +188,15 @@
         aspect-ratio: 4 / 5;
         object-fit: cover;
     }
+    /* About Section */
+    .about-content{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 35px;
+    }
+    .about-card{
+        width: 100%;
+    }
 }
 
 /* About Section */
