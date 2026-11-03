@@ -76,3 +76,64 @@
         gap: 15px;
     }
 }
+
+/* Hero Section */
+.hero{
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    gap: 40px;
+    background-color: #f8f6f4;
+}
+
+/* Left content */
+.hero-content{
+    max-width: 600px;
+}
+.hero-intro{
+    color: #8b5e4b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.hero-content h1{
+    font-size: 52px;
+    color: #38241d;
+    margin-bottom: 10px;
+}
+.hero-content h2{
+    font-size: 25px;
+    color: #8b5e4b;
+    margin-bottom: 20px;
+}
+.hero-description{
+    font-size: 17px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.hero-buttons{
+    display: flex;
+    gap: 15px;
+}
+.primary-btn, .secondary-btn{
+    padding: 13px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.primary-btn{
+    background-color: #8b5e4b;
+    color: white;
+}
+.secondary-btn{
+    border: 2px solid #8b5e4b;
+    color: #8b5e4b;
+}
+.primary-btn:hover, .secondary-btn:hover{
+    transform: translateY(-3px);
+}
