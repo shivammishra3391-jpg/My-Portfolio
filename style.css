@@ -137,3 +137,9 @@
 .primary-btn:hover, .secondary-btn:hover{
     transform: translateY(-3px);
 }
+.hero-image img{
+    width: 320px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 25px;
+}
