@@ -312,3 +312,9 @@
     transform: translateY(-7px);
     background-color: #e6e0f0;
 }
+
+/* Projects Section */
+.projects{
+    padding: 90px 8%;
+    background-color: #E5E4E2;
+}
