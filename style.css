@@ -611,3 +611,45 @@ body {
     border-radius: 20px;
     font-size: 12px;
 }
+
+/* My Journey Section */
+
+.journey{
+    padding: 90px 8%;
+    background-color: #E5E4E2;
+}
+.journey-heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.journey-heading p{
+    color: #8B5E4B;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.journey-heading h2{
+    color: #38241D;
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+.journey-heading span{
+    color: #666666;
+}
+.journey-container{
+    max-width: 750px;
+    margin: auto;
+    position: relative;
+}
+.journey-container::before{
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    bottom: 5px;
+    width: 2px;
+    background-color: #8b5e4b;
+}
+.journey-item{
+    
+}
