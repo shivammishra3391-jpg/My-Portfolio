@@ -1,7 +1,7 @@
 # 👨‍💻 Shivam Mishra | Personal Portfolio
 
 <p align="center">
-  <img src="assets/logo.png" alt="Shivam Mishra Logo" width="100">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzQOPQiKtIB1YtACEzeUCWMKnfW7aj9nzcLYYpvwZeQg&s=10" alt="Shivam Mishra Logo" width="100">
 </p>
 
 <h3 align="center">Building Ideas Into Digital Experiences 🚀</h3>
