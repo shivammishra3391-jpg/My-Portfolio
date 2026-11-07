@@ -510,6 +510,16 @@ body {
     .education{
         padding: 65px 6%;
     }
+    /* My Journey */
+    .journey{
+        padding: 65px 6%;
+    }
+    .journey-item{
+        padding-left: 35px;
+    }
+    .journey-content{
+        padding: 20px;
+    }
 }
 
 /* Small Mobile Screens */
