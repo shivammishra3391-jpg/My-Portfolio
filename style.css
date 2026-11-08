@@ -48,6 +48,9 @@ body {
     font-size: 22px;
     color: #8B5E4B;
 }
+.logo h2 span{
+    color:blue;
+}
 
 .nav-links {
     display: flex;
@@ -91,7 +94,7 @@ body {
     min-height: 85vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 60px 8%;
     gap: 40px;
     background-color: #F8F6F4;
@@ -157,8 +160,8 @@ body {
 }
 
 .hero-image img {
-    width: 320px;
-    height: 380px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
     border-radius: 25px;
 }
