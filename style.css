@@ -726,9 +726,9 @@ body {
     color: #38241D;
     margin-bottom: 10px;
 }
-.certifications-heading p{
+/* .certifications-heading p{
     color: #654333;
-}
+} */
 .certifications-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
