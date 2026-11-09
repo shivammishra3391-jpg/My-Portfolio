@@ -523,6 +523,12 @@ body {
     .journey-content{
         padding: 20px;
     }
+    .certifications-container{
+        grid-template-columns: 1fr;
+    }
+    .certifications-heading h2{
+        font-size: 26px;
+    }
 }
 
 /* Small Mobile Screens */
@@ -557,7 +563,7 @@ body {
 /* Education section */
 .education{
     padding: 90px 8%;
-    background-color: #F8F6F4
+    background-color: #F8F6F4;
 }
 .education-heading{
     text-align: center;
@@ -703,4 +709,61 @@ body {
     color: #555555;
     font-size: 14px;
     line-height: 1.7;
+}
+
+/* Certifications Section */
+.certifications{
+    padding: 90px 8%;
+    background: #E5E4E2;
+}
+.certifications-heading{
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 75px;
+}
+.certifications-heading h2{
+    font-size: 32px;
+    color: #38241D;
+    margin-bottom: 10px;
+}
+.certifications-heading p{
+    color: #654333;
+}
+.certifications-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.certificate-card{
+    background: #F8F6F4;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #d5c8c0;
+    transition: 0.3s ease;
+}
+.certificate-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(56, 36, 29, 0.12);
+}
+.certificate-icon{
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+.certificate-card h3{
+    color: #38241D;
+    margin-bottom: 12px;
+}
+.certificate-card p{
+    color: #654333;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+.certificate-status{
+    display: inline-block;
+    background:#E6E0F0;
+    color: #38241D;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 13px;
 }
